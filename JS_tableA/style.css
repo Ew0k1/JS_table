@@ -1,0 +1,85 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body {
+    font-size: 24px;
+    font-family: sans-serif;
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+}
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: #e2e2e2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#row {
+    margin: 10px;
+    border: none;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 30px;
+}
+#column {
+    margin: 10px;
+    border: none;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 30px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.submit {
+    cursor: pointer;
+    margin-top: 27px;
+    width: 153px;
+    height: 53px;
+    border: 2px solid #9b8f8f;
+    background-color: #b4aaaa;
+    border-radius: 5px;
+    font-size: 17px;
+    color: #fff;
+}
+.submit:hover {
+    border-radius: 5px;
+    cursor: pointer;
+}
+#outputForm {
+    margin-top: 30px;
+}
+table {
+    margin: 15px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+td {
+    background: whitesmoke;
+}
+.selected {
+    background-color: thistle;
+}
